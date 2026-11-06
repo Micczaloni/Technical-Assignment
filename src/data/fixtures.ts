@@ -36,6 +36,7 @@ export interface AthleteResult {
 export const copy = {
 	heading: "Championship Day",
 	event: "Alpine skiing — women's slalom",
+	imageAlt: "Alpine skiing course: 58 gates, 180 m vertical drop",
 	date: "12 February",
 	manageAlerts: "Manage alerts",
 	linkCopied: "Link copied",

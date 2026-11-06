@@ -63,6 +63,21 @@ The visual layout, existing event information, mouse interactions, and available
 
 **Status:** Fixed.
 
+## 6. Informative course image had empty alternative text
+
+**What I found:** The course image contained meaningful text, but its `alt`
+attribute was empty.
+
+**User impact:** Screen-reader users could miss the course information shown
+inside the image.
+
+**WCAG 2.1:** 1.1.1 Non-text Content (Level A)
+
+**Recommended fix:** Provide a concise text alternative containing the
+important information represented by the image.
+
+**Status:** Fixed. A test checks that the image has an accessible name.
+
 ## Behaviours checked and found correct
 
 - Schedule filters are buttons, so `Tab` moves between them and `Enter` or `Space` activates them. Arrow keys are not required for ordinary buttons.

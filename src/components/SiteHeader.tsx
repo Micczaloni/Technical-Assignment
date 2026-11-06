@@ -65,7 +65,7 @@ export function SiteHeader({ onManageAlerts }: SiteHeaderProps) {
 				<Stack gap="3">
 					<img
 						src={alpineSkiing}
-						alt=""
+						alt={copy.imageAlt}
 						className={css({
 							borderRadius: "lg",
 							h: "auto",

@@ -13,6 +13,16 @@ describe("Championship Day", () => {
 		).toBeInTheDocument();
 	});
 
+	it("provides an accessible alternative for the informative course image", () => {
+		render(<App />);
+
+		expect(
+			screen.getByRole("img", {
+				name: "Alpine skiing course: 58 gates, 180 m vertical drop",
+			}),
+		).toBeInTheDocument();
+	});
+
 	it("shows every heat on the schedule", () => {
 		render(<App />);
 
