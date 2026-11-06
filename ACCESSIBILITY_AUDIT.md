@@ -65,8 +65,7 @@ The visual layout, existing event information, mouse interactions, and available
 
 ## Behaviours checked and found correct
 
-- Schedule filters are buttons, so `Tab` moves between them and `Enter` or
-  `Space` activates them. Arrow keys are not required for ordinary buttons.
+- Schedule filters are buttons, so `Tab` moves between them and `Enter` or `Space` activates them. Arrow keys are not required for ordinary buttons.
 - Native checkboxes are toggled with `Space`, not normally with `Enter`.
 - Table data cells do not need to be individually reachable with `Tab`.
 - The initial selected filter remains `All sessions`.
